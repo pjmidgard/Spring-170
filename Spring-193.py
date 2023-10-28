@@ -420,7 +420,12 @@ class compression:
                                                 else:
                                
                                                          
-                                                    if xyz1[2:3]=="0" and X==0:
+                                                    if xyz1[2:3]=="1" and X==0:
+                                                         C=xyzg1+"0"+xyz1[3:4]
+                                                         
+                                                    elif xyz1[2:3]=="0" and X==1:
+                                                         C=xyzg1+"1"+xyz1[3:4]                                                         
+                                                    elif xyz1[2:3]=="0" and X==0:
                                                          C=xyzg1+"1"+xyz1[3:4]
                                                          
                                                     elif xyz1[2:3]=="1" and X==1:
